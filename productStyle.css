@@ -1,0 +1,140 @@
+/*html, body, nav, section, footer
+{
+  padding: 0;
+  border: 0;
+  margin: 0;
+  font: inherit;
+  font-size: 100%;
+}
+
+header
+{
+  background-color: #a6a6a6;
+  box-sizing: border-box;
+  position: absolute;
+  width: 100%;
+  color: #0033cc;
+  height: 140px;
+  margin-bottom: 200px;
+}
+
+header h1
+{
+  border: 1px solid blue;
+  box-sizing: border-box;
+  font-family:  'Inconsolata', monospace;
+  font-size: 30px;
+  width: 240px;
+  height: 50px;
+  position: absolute;
+  top: 30px;
+  left: 120px;
+}
+
+nav
+{
+  box-sizing: border-box;
+  position: relative;
+  bottom: 70px;
+  left: 1100px;
+  width: auto;
+  height: auto;
+  padding-top: 30px;
+  font-family: 'Inconsolata', monospace;
+}
+
+nav ul
+{
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 310px;
+  background-color: #bfbfbf;
+  margin-top: 20px;
+  padding-right: 5px;
+}
+
+nav li
+{
+  list-style-type: none;
+  padding: 20px;
+  color: #999999;
+
+}
+
+nav li a
+{
+    text-decoration: none;
+}*/
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: grey;
+}
+header h1 {
+  margin-left: 40px;
+}
+nav ul {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  background-color: darkgrey;
+  padding: 10px;
+  margin-top: 15px;
+  margin-right: 40px;
+
+
+
+}
+
+nav ul li {
+  display:flex;
+  align-content: space-between;
+  padding: 5px;
+
+}
+
+.smart, .simple, .green{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+}
+
+.sImage, .recycleImage, .brainImage {
+  display: flex;
+  height: 500px;
+  width: 500px;
+}
+.brainImage {
+  margin-top: 20px;
+}
+
+.text {
+  /*border: 1px solid black;*/
+  max-width: 400px ;
+  font-family: 'Inconsolata', monospace;
+
+}
+
+.text ul li {font-size: 20px; font-style: italic;}
+ul li span {font-size: 16px; font-style: normal;}
+
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: grey;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+button{
+  background-color: limegreen;
+  width: 120px;
+  height: 40px;
+}

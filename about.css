@@ -1,0 +1,65 @@
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: grey;
+}
+header h1 {
+  margin-left: 40px;
+}
+nav ul {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  background-color: darkgrey;
+  padding: 10px;
+  margin-top: 15px;
+  margin-right: 40px;
+
+
+
+}
+
+nav ul li {
+  display:flex;
+  align-content: space-between;
+  padding: 5px;
+
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 50% 50% ;
+  font-family: 'Inconsolata', monospace;
+}
+
+.reubendale{
+  grid-column: 1 /2;
+  justify-self: center;
+
+}
+
+.florez {
+  grid-column: 2 / 2;
+  justify-self: center;
+}
+
+img {
+  height: 300px;
+  width: 300px;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: grey;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+button{
+  background-color: limegreen;
+  width: 120px;
+  height: 40px;
+}

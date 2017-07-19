@@ -1,0 +1,146 @@
+/*html, body, nav, section, footer, h1, h2, h4, p, div, ul, li
+{
+  padding: 0;
+  border: 0;
+  margin: 0;
+  font: inherit;
+  font-size: 100%;
+}
+
+header
+{
+  background-color: #a6a6a6;
+  box-sizing: border-box;
+  color: #0033cc;
+  height: 120px;
+}
+
+header h1
+{
+  box-sizing: border-box;
+  font-family:  'Inconsolata', monospace;
+  font-size: 30px;
+  width: 240px;
+  height: 50px;
+  position: relative;
+  top: 30px;
+  left: 120px;
+}
+
+nav
+{
+  box-sizing: border-box;
+  position: relative;
+  bottom: 70px;
+  left: 75%;
+  width: auto;
+  height: auto;
+  padding-top: 30px;
+  font-family: 'Inconsolata', monospace;
+}
+
+nav ul
+{
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 310px;
+  background-color: #bfbfbf;
+  margin-top: 20px;
+  padding-right: 5px;
+}
+
+nav li
+{
+  list-style-type: none;
+  padding: 20px;
+  color: #999999;
+}
+
+nav li a
+{
+    text-decoration: none;
+}*/
+
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: grey;
+}
+header h1 {
+  margin-left: 40px;
+}
+nav ul {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  background-color: darkgrey;
+  padding: 10px;
+  margin-top: 15px;
+  margin-right: 40px;
+
+
+
+}
+
+nav ul li {
+  display:flex;
+  align-content: space-between;
+  padding: 5px;
+
+}
+
+section img
+{
+  float: left;
+  margin-right: 12px;
+  margin-bottom: 20px;
+}
+
+section
+{
+  float: right;
+  width: 400px;
+  height: 300px;
+  margin: 10px;
+  padding-right: 50px;
+  padding-top: 20px;
+  font-family: 'Inconsolata', monospace;
+  margin-bottom: 75px;
+}
+
+section h4
+{
+  padding-bottom: 10px;
+}
+
+section a
+{
+  clear: both;
+  margin-left: 300px;
+}
+
+.zen-landing-image
+{
+display: flex;
+justify-content: center;
+}
+
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: grey;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+button{
+  background-color: limegreen;
+  width: 120px;
+  height: 40px;
+}
